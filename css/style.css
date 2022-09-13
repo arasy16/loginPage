@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 600px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+table{
+  margin-top: 20px;
+}
+
+td {
+  width: 50%;
+}
+
+.form1 form {
+  width: 75%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form1 h2 {
+  position: absolute;
+  font-size: 35px;
+  margin-top: 45px;
+}
+
+.username {
+  margin: 130px 0 5px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  outline: none;
+  padding: 10px 15px 10px 15px;
+  width: 80%;
+}
+
+.password {
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  outline: none;
+  padding: 10px 15px 10px 15px;
+  width: 80%;
+}
+
+.btn-login {
+  margin-top: 15px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 15px 10px 15px;
+  width: 80%;
+}
+
+.tulisan {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.or {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.garis1 {
+  background-color: #dbdbdb;
+  height: 1px;
+  width: 85px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  position: relative;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+.garis2 {
+  background-color: #dbdbdb;
+  height: 1px;
+  width: 85px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  position: relative;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.facebook a{
+  margin-top: 25px;
+}
+
+.lupa{
+  margin-bottom: 200px;
+}
+
+.form2 {
+  width: 75%;
+  padding: 25px;
+  margin-right: 15px;
+  margin-top: 10px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.form2 div p{
+  text-align: center;
+}
+
+.app{
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+}
+
+.foto{
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+
+.dapatkan{
+  width: 75%;
+  padding: 15px;
+  text-align: center;
+}
+
+.td-foto{
+  position: relative;
+}
+
+.apple{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.android{
+  margin-left: 8px;
+  margin-top: 1px;
+}
